@@ -51,32 +51,33 @@
             <!-- 3. Avatar của người bạn muốn gởi lời chúc -->
             <img src="Main.jpg" alt="" class="avatar__img" onclick="showMessage()" />
             <!-- 4. Tên của người đó -->
-            <h1 onclick="showMessage()" class="avatar__title">Bùi Trường</h1>
-            <h1 style="color: red" ;>(Click vào ảnh m đi)</h1>
+            <h1 onclick="showMessage()" class="avatar__title">Bùi Trường
+                <br>Click vào ảnh đi</h1>
+            <!-- <h1 style=" color: red " ;>(Click vào ảnh m đi)</h1> -->
         </div>
 
         <!-- 5. Phần nhạc -->
-        <audio id="player" autoplay loop>
-                <source src="./music.mp3" type="audio/mp3">
+        <audio id="player " autoplay loop>
+                <source src="./music.mp3 " type="audio/mp3 ">
             </audio>
     </div>
     <script>
         if (document.location.search.match(/type=embed/gi)) {
-            window.parent.postMessage("resize", "*");
+            window.parent.postMessage("resize ", "* ");
         }
 
         function showMessage() {
             // 6. Lời nhắn hiện ra khi bấm vào tên hoặc avatar
             swal({
-                title: "Lời nhắn", // Tiêu đề của popup
-                text: "Đ có lời chúc gì đâu, ngồi 3 tiếng code ra cái này gãy cả lưng rồi=)))", // Nội dung lời nhắn
+                title: "Lời nhắn ", // Tiêu đề của popup
+                text: "Đ chúc đâu, ngồi 3 tiếng code ra cái này gãy cmn lưng rồi=))) ", // Nội dung lời nhắn
                 button: {
-                    text: "Close",
+                    text: "Close ",
                 },
             });
         }
     </script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js "></script>
 </body>
 
-</html>0
+</html>
